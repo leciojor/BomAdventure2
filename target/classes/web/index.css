@@ -1,0 +1,119 @@
+.large-button {
+  width: 200px;
+  height: 70px;
+  font-size: 16px;
+}
+
+.popup {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 1000px;
+  height: 1000px;
+  background-color: white;
+  padding: 20px;
+  border: 20px solid #000080;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.possible-words {
+  bottom: 0;
+  font-size: 30px;
+  position: center;
+  border: 10px solid blue;
+}
+
+.popup-subTitle {
+    font-size: 80px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.possible-words-title{
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+.popup-title {
+  font-size: 100px;
+  margin-bottom: 0px;
+  margin-top: 160px;
+}
+
+.popup-text {
+  font-size: 40px;
+  top: 20px;
+}
+
+.reset-button {
+    width: 70px;
+    height: 70px;
+    font-size: 20px;
+    border-radius: 50%;
+    background-color: #000080;
+    color: white;
+    margin-left: 20px;
+    margin-top: 160px;
+}
+
+.add-text {
+    display: block;
+    font-size: 30px;
+    border-radius: 50%;
+    float: right;
+    margin-right: 10px;
+}
+
+.input {
+    width: 100px;
+    height: 20px;
+    display: inline-block;
+    padding: 5px;
+    font-size: 14px;
+    border: 1px solid #000080;
+    border-radius: 5px;
+    vertical-align: middle;
+}
+
+.div-input {
+    display: flex;
+    align-items: center; 
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('https://raw.githubusercontent.com/leciojor/BOMadventure/main/alma_baptizing_people.png');
+    background-size: cover;
+    background-position: center;
+    overflow-y: scroll;
+}
+
+h1 {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 3em;
+    border: 2px solid black;
+    padding: 10px;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    background-color: white;
+}
+
+h2 {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1.5em;
+    border: 2px solid black;
+    padding: 10px;
+    display: inline-block;
+    background-color: white;
+}
